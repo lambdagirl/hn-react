@@ -1,11 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
+import Nav from './components/Nav'
 
 function App(){
     return (
-        <div>Hello World</div>
-    )
+      <>
+        <header className="header">
+          <div className="container">
+            <Nav />
+          </div>
+        </header>
+      </>
+    );
 }
 
 ReactDOM.render(
