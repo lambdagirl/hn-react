@@ -1,7 +1,7 @@
 import React from 'react';
 import {getIds} from "../utils/api";
 import {Story} from "./Story.js"
-export default function StoryList(){
+export default function StoryList(type){
     const [ids,setIds]= React.useState([]);
 
     React.useEffect(() => {
