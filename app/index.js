@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import Nav from './components/Nav'
-import Top from './components/Top'
+import StoryList from "./components/StoryList";
 function App(){
     return (
       <>
@@ -11,7 +11,7 @@ function App(){
             <Nav />
           </div>
         </header>
-        <Top />
+        <StoryList />
       </>
     );
 }
